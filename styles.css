@@ -1,0 +1,46 @@
+.header {
+    max-width: 600px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.nav-item {
+    margin: 10px;
+}
+
+
+.main-content {
+    display: flex;
+    background-color: azure;
+    max-width: 600px;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+
+.main {
+    padding: 20px;
+}
+
+
+.side-nav {
+    padding: 20px;
+    margin-right: 20px;
+}
